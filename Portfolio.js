@@ -256,19 +256,27 @@ const htmlContentMap = {
             `<div class="audio-block"><h3>SFX_Jump_Scare_Door</h3><audio controls><source src="Sound/SFX/SFX_Türschreck_D_M_C.WAV.wav" type="audio/wav"></audio></div>`,
         ],
     },
-    //"#deadmanscall": {
-    //title: "Dead Man's Call – Trailer",
-    //sectionTitle: "Games & Interactive Media",
-    //images: [],
-    //text: [
-    //  `<div class="video-block">
-    //   <video controls poster="Picture_Website/DeadManPoster.jpg" width="100%" style="border-radius: 10px;">
-    //    <source src="Video/" type="video/mp4">
-    //    Your browser does not support the video tag.
-    //  </video>
-    //  </div>`
-    // ]
-    //}
+    "#deadmanscall": {
+        title: "Dead Man's Call – Trailer",
+        sectionTitle: "Games & Interactive Media",
+        images: [],
+        text: [
+            // `<div class="video-block">
+            // <video controls poster="Picture_Website/DeadManPoster.jpg" width="100%" style="border-radius: 10px;">
+            //   <source src="Video/" type="video/mp4">
+            //   Your browser does not support the video tag.
+            //  </video>
+            //  </div>`
+            `<p class="model-description">
+    In this game, I created the door scare sound and the second ambience track (the one that plays after the scare moment) entirely by myself.<br><br>
+    I also implemented various sound effects for the user interface, such as the button hover sounds (input, delete input, wrong input, correct input). 
+    The lamps and air conditioners use multiple randomized sound layers that change in volume depending on the player’s position — enhancing the immersive atmosphere.<br><br>
+    Most other sounds — including the generator noises and the flashlight — were sourced from the Soundly library, 
+    as we didn’t have enough time to produce everything ourselves. Only the door scare and the second ambience were fully made by me.<br><br>
+    Before the final submission, I did a round of sound polishing to make sure everything sounded cohesive and the volume levels were realistic for each space — for example, in the generator room.
+  </p>`
+        ]
+    }
 };
 function closeModal() {
     document.getElementById('imageModal').style.display = "none";
