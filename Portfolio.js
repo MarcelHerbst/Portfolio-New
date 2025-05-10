@@ -261,12 +261,12 @@ const htmlContentMap = {
         sectionTitle: "Games & Interactive Media",
         images: [],
         text: [
-            // `<div class="video-block">
-            // <video controls poster="Picture_Website/DeadManPoster.jpg" width="100%" style="border-radius: 10px;">
-            //   <source src="Video/" type="video/mp4">
-            //   Your browser does not support the video tag.
-            //  </video>
-            //  </div>`
+            `<div class="video-block">
+    <video controls poster="" width="100%" style="border-radius: 10px;">
+      <source src="Video/Trailer_D_M_C.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>`,
             `<p class="model-description">
     In this game, I created the door scare sound and the second ambience track (the one that plays after the scare moment) entirely by myself.<br><br>
     I also implemented various sound effects for the user interface, such as the button hover sounds (input, delete input, wrong input, correct input). 
