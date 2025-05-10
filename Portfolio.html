@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marcel's Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="Portfolio.js" defer></script>
+</head>
+<body>
+
+  <div id="banner">
+    <div class="hero-text">
+      <h1>Ich bin Marcel</h1>
+      <p>Ich entwickle visuelle Welten, immersive Klangräume und spielerische Interaktion.</p>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+
+    <div class="nav-item">
+      <a href="#3d" class="nav-button">
+        <img src="Picture_Website/Icon_3D Art & Design.png" alt="3D Icon" class="nav-icon" />
+        3D Modeling & Assets
+      </a>
+      <div class="submenu">
+        <!-- Submenu Punkt 1: Fall of Egypt -->
+        <div class="submenu-item">
+          <a href="#FallofEgypt">
+            <span class="submenu-label">Fall of Egypt:<br>The Last City</span>
+            <img src="Picture_Website/Icon_Pfeil.png" alt="Pfeil" class="icon-pfeil"/>
+          </a>
+          <div class="sub-submenu">
+            <a href="#Player">Player Character Modell</a>
+            <a href="#soldier">Soldier Modell</a>
+            <a href="#Horde">Horde Modell</a>
+            <a href="#zombie">Zombie Modell</a>
+            <a href="#roundtracker">Roundtracker Modell</a>
+            <a href="#cardholder">Cardholder Modell</a>
+          </div>
+        </div>
+        <div class="submenu-item">
+          <a href="#Characters">
+            <span class="submenu-label">3D-Character</span>
+            <img src="Picture_Website/Icon_Pfeil.png" alt="Pfeil" class="icon-pfeil"/>
+          </a>
+          <div class="sub-submenu">
+            <a href="#kumo">Kumo</a>
+            <!-- weitere Sub-Submenü-Punkte -->
+          </div>
+        </div>
+  </div>
+</div>
+  
+    <div class="nav-item">
+      <a href="#sound" class="nav-button">
+        <img src="Picture_Website/Icon_Sound & Audio Experiences.png" alt="Sound" class="nav-icon" />
+        Sound & Audio Experiences
+      </a>
+      <div class="submenu">
+        <a href="#ambiente">Ambient Sounds</a>
+        <a href="#sfx">Sound Effects</a>
+        <a href="#music">Ambisonic</a>
+      </div>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#games" class="nav-button">
+        <img src="Picture_Website/Icon_Characters & Lore.png" alt="Characters" class="nav-icon" />
+        Characters & Lore
+      </a>
+      <div class="submenu">
+        <a href="#characters">Characters</a>
+        <a href="#lore">Lore</a>
+      </div>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#interactive" class="nav-button">
+        <img src="Picture_Website/Icon_Games & Interactive Media.png" alt="Games" class="nav-icon" />
+        Games & Interactive Media
+      </a>
+      <div class="submenu">
+        <a href="#physics">Physics Game</a>
+        <a href="#deadmanscall">Dead Man's Call</a>
+      </div>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#about" class="nav-button">
+        <img src="Picture_Website/Icon_About.Contact.png" alt="About/Contact" class="nav-icon" />
+        About / Contact
+      </a>
+      <div class="submenu">
+        <a href="#aboutme">About Me</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  
+  </nav>
+  
+
+ 
+
+
+
+
+  <div class="separator"></div>
+  <div id="contentArea" class="content-area"></div>
+  <canvas id="mainCanvas"></canvas>
+
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <img id="modalImage" class="modal-content" />
+  </div>
+  
+</body>
+</html>
